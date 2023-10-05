@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;500&family=Poppins:wght@100;300;400;500;600;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2926ee931f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="w-[550px] md:w-full md:h-18 h-32 flex justify-center">
+        <main id="main-wrapper" class="w-full h-auto relative flex md:flex-row justify-center">
+            <div class="w-full h-full md:w-1/2 h-full relative flex flex-col my-2.5 bg-white">
+                <div class="w-full md:w-64 h-full relative flex flex-row justify-between items-center ml-8 lg:ml-36">
+                    <img src="Assets/Logo.svg" class="w-8 h-8">
+                    <a href="landing.html" class="hidden md:inline md:text-xl md:font-poppins md:mr-4 md:cursor-pointer">Features</a>
+                    <a href="pricing.html" class="hidden md:inline md:text-xl md:font-poppins md:mr-4 md:cursor-pointer">Pricing</a>
+                    <i class="fa-solid fa-bars relative right-10 text-2xl md:hidden"></i>
+                </div>
+            </div>
+            <div class="hidden md:w-1/2 md:h-full md:flex md:justify-end md:items-center md:my-2.5 md:bg-cyan-300">
+                <button class="mr-28 font-poppins mr-4 w-56 h-20 text-lg font-semibold rounded-md border-none bg-blue-950 text-white cursor-pointer">Start Sheduling</button>
+            </div>
+        </main>
+    </header>
+    <section class="w-full h-auto relative">
+        <div class="w-full relative flex h-[1200px] md:h-[800px] flex-col md:flex-row">
+            <div class="w-full relative flex mb-0 items-center md:w-1/2 md:h-auto">
+                <div class="inline-block h-auto ml-8 relative flex flex-col w-[550px] h-[600px] md:w-[350px] lg:w-full lg:ml-36">
+                   <p class="font-poppins md:text-5xl text-6xl lg:text-6xl mb-0 font-bold text-blue-950">Post when your audience is most active</p>
+                   <p class="font-poppins mr-4 lg:text-2xl md:text-xl mt-6 text-black">With TimeNow, automatically schedule your posts 
+                    on Twitter, Linkedin, and Instagram to post when your followers are most active.
+                   </p>
+                   <div class="flex lg:flex-row md:flex-col mt-6">
+                        <button class="font-poppins mr-4 w-60 h-20 text-2xl font-bold rounded-md border-none bg-blue-950 text-white cursor-pointer md:w-56 md:h-20">Start Sheduling</button>
+                        <button class="font-poppins mr-4 w-48 h-20 text-2xl font-bold mr-24 rounded-md border-none lg:ml-10 bg-white text-slate-700 cursor-pointer md:w-56 md:h-20">View Demo</button>
+                   </div>
+                    <div class="relative w-full h-auto flex flex-row flex-wrap mt-6 mb-8 md:mb-0">
+                        <p class="font-poppins mr-4 text-2xl md:text-xl mt-6 text-black"><img src="Assets/Shield.svg" class="inline mr-2">TimeNow does not sell your data. <a class="font-poppins mr-4 text-2xl md:text-xl mt-6 underline text-black cursor-pointer">Learn More</a></p>
+                   </div>
+                </div>
+            </div>
+            <div class="w-[590px] h-full md:w-1/2 md:h-auto relative flex justify-center items-center mb-16 bg-cyan-300">
+                <img src="Assets/Mockup.png" class="w-10/12 h-auto">
+            </div>
+        </div>
+    </section>
+    <section class="w-[550px] md:w-full md:h-auto relative">
+        <div class="w-full relative ml-8 md:ml-0 flex md:flex-col flex-col lg:flex-row h-auto my-10">
+            <div class="w-full lg:w-1/2 h-auto relative flex mb-0 bg-white">
+                <div class="w-[500px]  md:w-[680px] lg:w-[550px] h-auto relative md:flex-row flex flex-col lg:flex-col md:ml-8 lg:ml-36">
+                    <p class="font-poppins md:mr-4 text-5xl lg:text-5xl md:text-4xl md:mt-4 font-bold leading-none text-blue-950">TimeNow is used by the most influential people</p>
+                    <div class="w-auto h-auto relative flex flex-row flex-wrap justify-between mt-6">
+                        <img src="Assets/UA1.png" class="h-14">
+                        <img src="Assets/UA2.png" class="h-14">
+                        <img src="Assets/UA3.png" class="h-14">
+                        <img src="Assets/UA4.png" class="h-14">
+                        <img src="Assets/UA5.png" class="h-14">
+                        <img src="Assets/UA6.png" class="h-14">
+                        <img src="Assets/UA7.png" class="h-14">
+                        <img src="Assets/UA8.png" class="h-14">
+                    </div>
+                </div>
+            </div>
+            <div class="w-[500px] md:w-full lg:w-1/2 h-auto relative flex justify-center items-center mb-16 bg-white">
+                <div class="w-full md:w-11/12">
+                    <p class="font-poppins mr-4 text-2xl md:text-xl mt-6 text-black">
+                        The most influential people on Facebook, Twitter, and Instagram are 
+                        using TweetNow to schedule posts when their followers are most active.<br><br> They generally receive 23% more 
+                        engagement than people who do not.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full h-auto relative mb-16">
+        <div class="w-[600px] md:w-full  relative flex flex-col lg:flex-row bg-indigo-100">
+            <div class="w-full lg:w-1/2 h-auto relative flex mb-0">
+                <div class="w-[550px] h-auto relative flex flex-col ml-8 lg:ml-36">
+                    <p class="font-poppins mr-4 text-2xl mt-6  color2bold-text">Unified Dashboard</p>
+                    <p class="font-poppins mr-4 text-5xl font-semibold leading-none text-cyan-900 mt-6">Customizable Dashboard for all platforms</p>
+                    <p class="font-poppins mr-4 text-2xl mt-6 text-black">
+                        Use Twitter and Instagram but not Linkedin? You can customize your dashboard to your liking. You can even schedule the same post to individual platforms instead of all platforms.
+                    </p>
+                    <button class="mr-28 mt-6 font-poppins mr-4 w-56 h-20 text-xl font-semibold rounded-md border-none bg-blue-950 text-white cursor-pointer">Start Sheduling</button>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 h-auto relative flex justify-center items-center mt-10 mb-16">
+                <div class="w-[550px] md:w-11/12">
+                    <p class="font-poppins mr-4 color2 text-2xl mt-6 bold-text">Enhanced Analytics</p>
+                    <p class="font-poppins mr-4 text-5xl font-semibold leading-none text-cyan-900 mt-6">Real Time data that tells you everything</p>
+                    <p class="font-poppins mr-4 text-2xl  mt-6 text-black">
+                        Get detailed reports of what's working and what isn't. Engagement rates, impressions, views, and much more data is available to you through our in-depth dashboard tool.</p>
+                    <a class="font-poppins mr-4 text-2xl md:text-xl mt-6 text-black text-decoration font-bold md:font-semibold cursor-pointer"><br><br>View Live Demo -></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full h-auto relative mb-16">
+        <img src="Assets/Logo.svg" class="ml-8 lg:ml-36">
+        <div class="w-[600px] md:w-full relative flex flex-col lg:flex-row justify-between">
+            <div class="w-11/12 md:w-3/5 lg:w-2/5 h-auto relative flex flex-wrap flex-row justify-between ml-8 lg:ml-36 mt-6">
+                <ul class="relative flex flex-col">
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black font-semibold">Product</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">Homepage</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">Pricing</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">Features</li>
+                </ul>
+                <ul class="relative w-[100px] h-auto flex flex-col">
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black font-semibold">Help</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">Live Chat</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">Send Email</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">FAQ</li>
+                </ul>
+                <ul class="relative w-[100px] h-auto flex flex-col">
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black font-semibold">Product</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">About</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">Customers</li>
+                    <li class="font-poppins mr-4 text-2xl md:text-xl text-black">Blog</li>
+                </ul>
+            </div>
+            <div class="w-full lg:w-1/2 h-auto relative flex flex-col mb-14 md:pb-5 mt-14 md:mt-6">
+                <p class="font-poppins mr-4 text-2xl md:text-xl text-black font-semibold ml-8">Try TweetNow</p>
+                <div class="w-11/12 relative">
+                    <input type="text" placeholder="Email Address" class="w-11/12 h-20 md:h-14 ml-8 border-2 absolute">
+                    <button class="font-poppins w-40 h-20 md:h-14 text-xl font-semibold rounded-md border-none bg-blue-950 text-white cursor-pointer absolute top-0 right-0">Start Sheduling</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
